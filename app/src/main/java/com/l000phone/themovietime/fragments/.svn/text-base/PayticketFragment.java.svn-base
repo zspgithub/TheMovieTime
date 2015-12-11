@@ -1,0 +1,62 @@
+package com.l000phone.themovietime.fragments;
+
+
+
+
+
+
+//import android.app.Fragment;
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+
+import com.l000phone.themovietime.MainActivity;
+import com.l000phone.themovietime.R;
+//import com.l000phone.themovietime.payticket.PayTicketMainRightFragment;
+
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class PayticketFragment extends Fragment {
+    private MainActivity activity;
+    private Button leftButton;
+    private Button rightButton;
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        activity = ((MainActivity) context);
+    }
+
+    public PayticketFragment() {
+        // Required empty public constructor
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_payticket, container, false);
+//        initView(view);
+        return view;
+    }
+
+//    private void initView(View view) {
+//        //leftButton = (Button) view.findViewById(R.id.payticket_main_title_btnleft);
+//        //rightButton = (Button) view.findViewById(R.id.payticket_main_title_btnright);
+//        rightButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//   //             PayTicketMainRightFragment rightFragment = new PayTicketMainRightFragment();
+//
+//            }
+//        });
+//    }
+
+
+}

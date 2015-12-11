@@ -1,0 +1,65 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.l000phone.themovietime.fragments.PayticketFragment"
+    android:id="@+id/payticket_mainfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/payticket_title_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/royalblue"
+            >
+            <RadioGroup
+                android:id="@+id/payticket_title_Radiogroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true">
+                <RadioButton
+                    android:id="@+id/payticket_title_leftRadiobtn"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="电影"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:checked="true"
+                    android:textColor="@color/payticket_title_btntextcolor"
+                    android:background="@drawable/payticket_title_btn_bgleft"/>
+                <RadioButton
+                    android:id="@+id/payticket_title_rightRadiobtn"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="影院"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="@color/payticket_title_btntextcolor"
+                    android:background="@drawable/payticket_title_btn_bgright"
+                    />
+            </RadioGroup>
+            <ImageView
+                android:id="@+id/payticket_titlebar_search_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/title_bar_search_zoomin"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/payticket_framelayout"
+            android:layout_below="@+id/payticket_title_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
+

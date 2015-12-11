@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.l000phone.themovietime.fragments.PayticketFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        >
+       <RadioGroup
+           android:id="@+id/payticket_title_Radiogroup"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_centerInParent="true">
+           <RadioButton
+               android:id="@+id/payticket_title_leftbtn"
+               android:layout_width="100dp"
+               android:layout_height="40dp"
+               android:text="电影"
+               android:button="@null"
+               android:gravity="center"
+               android:checked="true"
+               />
+               <!--android:textColor="@color/payticket_title_btntextcolor"-->
+               <!--android:background="@drawable/payticket_title_btn_bg"-->
+
+           <RadioButton
+               android:layout_width="100dp"
+               android:layout_height="40dp"
+               android:text="影院"
+               android:button="@null"
+               android:gravity="center"
+               />
+               <!--android:textColor="@color/payticket_title_btntextcolor"-->
+               <!--android:background="@drawable/payticket_title_btn_bg"-->
+
+       </RadioGroup>
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/payticket_shangying_top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最受关注"
+        android:textSize="24sp"
+        android:padding="20dp"/>
+    <RelativeLayout
+        android:id="@+id/payticket_shangying_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/payticket_shangying_top_text">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/payticket_shangying_top_recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_centerVertical="true"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/payticket_shangying_top_recycleView_huiline"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#eeeeee"
+        android:layout_below="@+id/payticket_shangying_top_layout"/>
+    <WebView
+        android:id="@+id/payticket_shangying_top_recycleView_webview"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/payticket_shangying_top_recycleView_huiline"/>
+
+    <TextView
+        android:id="@+id/payticket_shangying_top_recycleView_huiline2"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#eeeeee"
+        android:layout_below="@+id/payticket_shangying_top_recycleView_webview"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="即将上映（60部）"
+        android:layout_below="@+id/payticket_shangying_top_recycleView_huiline2"
+        android:textSize="24sp"
+        android:layout_margin="20dp"/>
+</RelativeLayout>

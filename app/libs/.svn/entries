@@ -1,0 +1,58 @@
+10
+
+dir
+44
+https://chinawang/svn/TheMovieTimeRepository/TheMovieTime/app/libs
+https://chinawang/svn/TheMovieTimeRepository
+
+
+
+2015-11-20T00:53:22.109375Z
+43
+wangxiaoping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c121b604-2b31-8949-bca4-6812749d59e5
+
+gson-2.1.jar
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+svn:special svn:externals svn:needs-lock
+
+xUtils-2.6.14.jar
+file
+
+
+
+
+
+810bb5ae46f6bb2096bea454194bb03f
+2015-11-20T00:53:22.109375Z
+43
+wangxiaoping
+has-props
+
+svn:special svn:externals svn:needs-lock
+

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters
+END
+PayTicketReyingAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/PayTicketReyingAdapter.java
+END
+YingyuanRecyclerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/YingyuanRecyclerAdapter.java
+END
+PayticketYingyuanTehuiAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/PayticketYingyuanTehuiAdapter.java
+END
+PayticketYingyuanAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/PayticketYingyuanAdapter.java
+END
+YingyuanInfoPiaoAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/YingyuanInfoPiaoAdapter.java
+END
+PayTicketShangyingListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/PayTicketShangyingListAdapter.java
+END
+PayticketShangyingRecycleAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/PayticketShangyingRecycleAdapter.java
+END
+ReyingInfoRecycleViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/TheMovieTimeRepository/!svn/ver/41/TheMovieTime/app/src/main/java/com/l000phone/themovietime/payticket/adapters/ReyingInfoRecycleViewAdapter.java
+END

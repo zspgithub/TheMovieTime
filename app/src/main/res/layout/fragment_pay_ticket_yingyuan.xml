@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.l000phone.themovietime.payticket.PayTicketYingyuanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup
+        android:id="@+id/payticket_yingyuan_fragment_tabRadiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+    <RadioButton
+                android:id="@+id/payticket_yingyuan_fragment_tab1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="全部"
+                android:gravity="center"
+                android:textColor="@color/payticket_yingyuan_tab_textcolor"
+                android:button="@null"
+                android:checked="true"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/darkgray"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+
+            <RadioButton
+                android:id="@+id/payticket_yingyuan_fragment_tab2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="特惠"
+                android:gravity="center"
+                android:textColor="@color/payticket_yingyuan_tab_textcolor_tehui"
+                android:button="@null"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/darkgray"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+            <RadioButton
+                android:id="@+id/payticket_yingyuan_fragment_tab3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="附近"
+                android:gravity="center"
+                android:textColor="@color/payticket_yingyuan_tab_textcolor"
+                android:button="@null"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/darkgray"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgray"
+        android:layout_below="@id/payticket_yingyuan_fragment_tabRadiogroup"/>
+
+    <ListView
+        android:id="@+id/payticket_yingyuan_fragment_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_line">
+
+    </ListView>
+
+</RelativeLayout>

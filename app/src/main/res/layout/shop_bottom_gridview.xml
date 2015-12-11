@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#EEE">
+                <TextView
+                    android:id="@+id/yourIntesting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="你可能感兴趣的"
+                    android:textColor="#A3A3A3"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@mipmap/home_recommended_daily_icon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_toLeftOf="@id/yourIntesting"
+                android:background="#A3A3A3"
+                android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_toRightOf="@id/yourIntesting"
+                    android:background="#A3A3A3"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+    <com.l000phone.themovietime.shop.utils.MyGridView
+        android:id="@+id/shop_bottom_gridview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="10dp"
+        android:columnWidth="10dp"
+        android:numColumns="2"
+        android:gravity="center"></com.l000phone.themovietime.shop.utils.MyGridView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

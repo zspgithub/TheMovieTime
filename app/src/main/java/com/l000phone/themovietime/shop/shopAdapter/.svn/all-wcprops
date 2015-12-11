@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter
+END
+GridBottomAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/GridBottomAdapter.java
+END
+ShopBuyListviewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/ShopBuyListviewAdapter.java
+END
+ShopLotsGridviewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/ShopLotsGridviewAdapter.java
+END
+ShopfirstViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/ShopfirstViewPagerAdapter.java
+END
+ShopBuyBottomGridviewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/ShopBuyBottomGridviewAdapter.java
+END
+GridCenterAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/GridCenterAdapter.java
+END
+ShopFirstListviewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/ShopFirstListviewAdapter.java
+END
+ShopBuyViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TheMovieTimeRepository/!svn/ver/44/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop/shopAdapter/ShopBuyViewPagerAdapter.java
+END

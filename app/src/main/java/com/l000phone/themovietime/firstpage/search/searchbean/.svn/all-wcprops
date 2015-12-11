@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search/searchbean
+END
+ParserHotSearchJson.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search/searchbean/ParserHotSearchJson.java
+END
+ParserSearchSuggest.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search/searchbean/ParserSearchSuggest.java
+END
+SearchSuggestBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search/searchbean/SearchSuggestBean.java
+END
+SearchHotBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search/searchbean/SearchHotBean.java
+END
+SearchResultBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search/searchbean/SearchResultBean.java
+END
+ParserSearchResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search/searchbean/ParserSearchResult.java
+END

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.l000phone.themovietime.shop.Shop_gouwucheActivity">
+
+    <RelativeLayout
+        android:id="@+id/shop_gouwuche_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/myblue">
+
+        <ImageView
+            android:id="@+id/shop_gouwuche_imgBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/find_news_img_detail_top_left_arrow"/>
+
+        <TextView
+            android:id="@+id/shop_gouwuche_tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购物车"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shop_gouwuche_bar"
+        android:visibility="gone"
+        ></GridView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shop_gouwuche_bar"></ListView>
+</RelativeLayout>

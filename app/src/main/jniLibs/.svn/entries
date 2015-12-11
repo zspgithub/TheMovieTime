@@ -1,0 +1,35 @@
+10
+
+dir
+0
+https://chinawang/svn/TheMovieTimeRepository/TheMovieTime/app/src/main/jniLibs
+https://chinawang/svn/TheMovieTimeRepository
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c121b604-2b31-8949-bca4-6812749d59e5
+
+armeabi
+dir
+
+
+
+add
+

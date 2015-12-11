@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="390dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:id="@+id/allname">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF">
+    <TextView
+        android:id="@+id/shop_buy_lots_grid_item_lijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        />
+
+    <ImageView
+        android:id="@+id/shop_buy_lots_grid_item_imgview"
+        android:layout_width="180dp"
+        android:layout_height="250dp"/>
+
+    <TextView
+        android:id="@+id/shop_buy_lots_grid_item_tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#333333"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:gravity="center_vertical"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/shop_buy_lots_grid_item_tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF8600"
+        android:textSize="22sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/shop_buy_lots_grid_item_tvOldprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/shop_buy_lots_grid_item_tvPrice"
+        android:layout_marginLeft="10dp"
+        android:textColor="#BBBBBB"
+        android:gravity="center_vertical"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:layout_toRightOf="@+id/shop_buy_lots_grid_item_tvPrice"
+        android:background="#BBBBBB"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="@id/shop_buy_lots_grid_item_tvOldprice"
+        android:layout_centerVertical="true"
+        />
+
+
+</RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

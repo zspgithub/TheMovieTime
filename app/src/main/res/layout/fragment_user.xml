@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.l000phone.themovietime.fragments.UserFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--bar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/royalblue"
+        android:gravity="right"
+        android:padding="10dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:src="@mipmap/find_news_comment_msg" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@mipmap/mine_main_title_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/user_one_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@mipmap/profile_default_head_h90" />
+
+                <Button android:id="@+id/user_login"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/first_top_btn"
+                    android:text="登录"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/user_register"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/user_one_btn"
+                    android:text="注册"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/user_two_cart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/act_my_home_cart" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="购物车" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/user_two_ticket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/act_my_home_tickets" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="电影票订单" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/user_two_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/act_my_home_goods" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="商品订单" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/user_two_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/act_my_home_card" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="礼品卡" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/silver" />
+
+            <RadioButton
+                style="@style/user_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableLeft="@mipmap/icon_my_home_coupon_45x35"
+                android:drawableRight="@mipmap/right_arrow"
+                android:text="  我的优惠券" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver" />
+
+            <RadioButton
+                style="@style/user_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableLeft="@mipmap/icon_my_home_movies_43x43"
+                android:drawableRight="@mipmap/right_arrow"
+                android:text="  我的电影" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver" />
+
+            <RadioButton
+                style="@style/user_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableLeft="@mipmap/icon_my_home_favorites_45x45"
+                android:drawableRight="@mipmap/right_arrow"
+                android:text="  我的收藏" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/silver" />
+
+            <RadioButton
+                style="@style/user_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:text="意见反馈" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver" />
+            <RadioButton
+                style="@style/user_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:text="设置" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver" />
+            <RadioButton
+                style="@style/user_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:text="扫描二维码" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver" />
+            <RadioButton
+                style="@style/user_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:drawableRight="@mipmap/right_arrow"
+                android:text="商城使用帮助" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/silver" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01"
+        android:id="@+id/topListDetails_item2_rankNum"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@mipmap/topmovie_list_numd"
+        android:gravity="center"
+        android:textColor="#fff"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:id="@+id/topListDetails_item2_image"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/topListDetails_item2_rankNum"
+        android:layout_toEndOf="@+id/topListDetails_item2_rankNum"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="吉姆"
+        android:id="@+id/topListDetails_item2_nameCn"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/topListDetails_item2_image"
+        android:layout_toEndOf="@+id/topListDetails_item2_image"
+        android:layout_marginLeft="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.0"
+        android:id="@+id/topListDetails_item2_rating"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/topListDetails_item2_nameCn"
+        android:layout_toEndOf="@+id/topListDetails_item2_nameCn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:background="#0f0"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jim Parsons"
+        android:id="@+id/topListDetails_item2_nameEn"
+        android:layout_below="@+id/topListDetails_item2_nameCn"
+        android:layout_alignLeft="@+id/topListDetails_item2_nameCn"
+        android:layout_alignStart="@+id/topListDetails_item2_nameCn"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男"
+        android:id="@+id/topListDetails_item2_sex"
+        android:layout_below="@+id/topListDetails_item2_nameEn"
+        android:layout_alignLeft="@+id/topListDetails_item2_nameEn"
+        android:layout_alignStart="@+id/topListDetails_item2_nameEn"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3月24日"
+        android:id="@+id/topListDetails_item2_birthday"
+        android:layout_alignTop="@+id/topListDetails_item2_sex"
+        android:layout_toRightOf="@+id/topListDetails_item2_sex"
+        android:layout_toEndOf="@+id/topListDetails_item2_sex"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="美国休斯敦"
+        android:id="@+id/topListDetails_item2_birthLocation"
+        android:layout_alignTop="@+id/topListDetails_item2_birthday"
+        android:layout_toRightOf="@+id/topListDetails_item2_birthday"
+        android:layout_toEndOf="@+id/topListDetails_item2_birthday"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="年收入2900万美元"
+        android:id="@+id/topListDetails_item2_summary"
+        android:layout_below="@+id/topListDetails_item2_sex"
+        android:layout_alignLeft="@+id/topListDetails_item2_sex"
+        android:layout_alignStart="@+id/topListDetails_item2_sex"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

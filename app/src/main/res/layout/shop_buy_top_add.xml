@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@color/myblue">
+
+    <ImageView
+        android:id="@+id/shop_buy_includetop_imgBack"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/find_news_img_detail_top_left_arrow"/>
+
+    <ImageView
+        android:id="@+id/shop_buy_includetop_imgShare"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@mipmap/title_bar_share"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/shop_buy_includetop_imggouwuche"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/mall_home_cart_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/shop_buy_includetop_imgShare"/>
+</RelativeLayout>

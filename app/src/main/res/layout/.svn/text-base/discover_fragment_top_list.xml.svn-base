@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.l000phone.themovietime.discover.fragments.TopListFragment"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="180dp"
+        android:id="@+id/topList_pageSubArea"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:id="@+id/topList"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/topList_pageSubArea"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#60000000"/>
+    <LinearLayout
+        android:id="@+id/topList_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topList_pageSubArea"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:background="#fff"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/topList_mtime"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:text="时光网Top100"
+            android:background="#fff"
+            android:drawableTop="@mipmap/find_fixedtop100_img0"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/topList_china"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:text="华语Top100"
+            android:background="#fff"
+            android:drawableTop="@mipmap/find_fixedtop100_img1"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/topList_globle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:text="全球票房榜"
+            android:background="#fff"
+            android:drawableTop="@mipmap/find_fixedtop100_img2"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/topList_pullToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/topList_layout"
+        android:paddingTop="15dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="15dp">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</RelativeLayout>

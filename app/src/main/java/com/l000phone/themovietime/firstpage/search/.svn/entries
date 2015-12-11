@@ -1,0 +1,81 @@
+10
+
+dir
+44
+https://chinawang/svn/TheMovieTimeRepository/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/search
+https://chinawang/svn/TheMovieTimeRepository
+
+
+
+2015-11-19T14:10:26.890625Z
+42
+wangjicai
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c121b604-2b31-8949-bca4-6812749d59e5
+
+
+
+
+
+
+0
+
+SearchMovieActivity.java
+file
+
+
+
+
+2015-11-19T13:10:26.859000Z
+0f794940bb211bc783665cf611d2d794
+2015-11-19T14:10:26.890625Z
+42
+wangjicai
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5936
+
+adapter
+dir
+
+asynctask
+dir
+
+fragments
+dir
+
+searchbean
+dir
+

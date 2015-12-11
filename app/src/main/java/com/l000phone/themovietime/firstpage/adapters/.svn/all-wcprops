@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/adapters
+END
+RecyclerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TheMovieTimeRepository/!svn/ver/30/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/adapters/RecyclerAdapter.java
+END
+GoodsViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/adapters/GoodsViewPagerAdapter.java
+END
+MoviesHotAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/TheMovieTimeRepository/!svn/ver/42/TheMovieTime/app/src/main/java/com/l000phone/themovietime/firstpage/adapters/MoviesHotAdapter.java
+END

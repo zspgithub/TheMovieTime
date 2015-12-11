@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.l000phone.themovietime.fragments.DiscoverFragment">
+
+    <FrameLayout
+        android:id="@+id/discover_framlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00f">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/discover_tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tab:tabIndicatorColor="#fff"
+            tab:tabSelectedTextColor="#fff"
+            tab:tabTextColor="#ccc"
+            tab:tabGravity="fill">
+
+        </android.support.design.widget.TabLayout>
+
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/discover_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/discover_framlayout">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

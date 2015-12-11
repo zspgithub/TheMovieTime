@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本爱卧谈会"
+        android:id="@+id/news_item2_title"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+
+    <LinearLayout
+        android:layout_below="@+id/news_item2_title"
+        android:id="@+id/news_item2_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:id="@+id/news_item2_image1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/news_item2_image2"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="1dp"/>
+        <ImageView
+            android:id="@+id/news_item2_image3"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="1dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1小时前"
+        android:id="@+id/news_item2_publishTime"
+        android:layout_below="@+id/news_item2_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="评论4"
+        android:id="@+id/news_item2_commentCount"
+        android:layout_alignTop="@+id/news_item2_publishTime"
+        android:layout_toRightOf="@+id/news_item2_publishTime"
+        android:layout_toEndOf="@+id/news_item2_publishTime"
+        android:layout_marginLeft="10dp"
+        android:textSize="10sp"/>
+
+
+</RelativeLayout>
