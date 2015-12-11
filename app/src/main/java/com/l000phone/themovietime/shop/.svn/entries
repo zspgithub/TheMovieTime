@@ -1,56 +1,0 @@
-10
-
-dir
-44
-https://chinawang/svn/TheMovieTimeRepository/TheMovieTime/app/src/main/java/com/l000phone/themovietime/shop
-https://chinawang/svn/TheMovieTimeRepository
-
-
-
-2015-11-20T01:23:20.421875Z
-44
-bufancheng
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-c121b604-2b31-8949-bca4-6812749d59e5
-
-
-
-
-
-
-0
-
-network
-dir
-
-shopActivity
-dir
-
-shopAdapter
-dir
-
-shopDataParse
-dir
-
-shopbean
-dir
-
-shopbuybean
-dir
-
-utils
-dir
-
