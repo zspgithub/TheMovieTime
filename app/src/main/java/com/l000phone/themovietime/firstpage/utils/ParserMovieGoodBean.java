@@ -9,7 +9,7 @@ import org.json.JSONObject;
 /**
  * 最下边每日佳片解析类
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class ParserMovieGoodBean {
 

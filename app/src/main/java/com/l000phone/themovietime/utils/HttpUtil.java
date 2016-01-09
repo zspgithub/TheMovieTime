@@ -20,7 +20,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 /**
  * 联网请求类
  * <p/>
- * Created by Administrator on 15-11-13.
+ *  
  */
 public class HttpUtil {
 

@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 下边今日热点异步任务类
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class MoviesHotAsyncTask extends AsyncTask<String,Void,List<MoviesHotBean>> {
 

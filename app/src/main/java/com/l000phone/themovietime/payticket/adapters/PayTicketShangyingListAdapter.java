@@ -19,7 +19,7 @@ import org.w3c.dom.Text;
 import java.util.List;
 
 /**
- * Created by Administrator on 2015/11/17.
+ * 
  */
 public class PayTicketShangyingListAdapter extends BaseAdapter {
     private List<PayticketShangyingBean> list;

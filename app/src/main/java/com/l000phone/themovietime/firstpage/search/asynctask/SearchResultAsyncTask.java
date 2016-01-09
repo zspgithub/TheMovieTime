@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 搜索结果异步任务类
  *
- * Created by Administrator on 15-11-19.
+ * 
  */
 public class SearchResultAsyncTask extends AsyncTask<String,Void,List<SearchResultBean>> {
 

@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 中间自动滚动广告条的适配器
  *
- * Created by Administrator on 15-11-15.
+ * 
  */
 public class GoodsViewPagerAdapter extends PagerAdapter{
 

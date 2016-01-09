@@ -3,7 +3,7 @@ package com.l000phone.themovietime.firstpage.bean;
 /**
  * 中间商品，最上边  新品主推
  *
- * Created by Administrator on 15-11-15.
+ * 
  */
 public class GoodsSubBean {
 

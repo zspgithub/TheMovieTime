@@ -9,7 +9,7 @@ import com.l000phone.themovietime.utils.HttpUtil;
 /**
  * 热门搜索的异步任务类
  *
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class SearchHotAsyncTask extends AsyncTask<String,Void,String[]> {
 

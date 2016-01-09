@@ -1,7 +1,7 @@
 package com.l000phone.themovietime.discover.bean;
 
 /**
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class PrevueListView {
     private String coverImg;

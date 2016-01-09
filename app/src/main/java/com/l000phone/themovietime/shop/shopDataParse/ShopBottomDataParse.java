@@ -18,7 +18,7 @@ import org.json.JSONObject;
 import java.util.List;
 
 /**
- * Created by bfc on 2015/11/17.
+ *  
  */
 public class ShopBottomDataParse {
 

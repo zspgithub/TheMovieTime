@@ -3,7 +3,7 @@ package com.l000phone.themovietime.firstpage.bean;
 /**
  * 中间定时滑动广告条的bean类
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class GoodsPagerBean  {
 

@@ -1,7 +1,7 @@
 package com.l000phone.themovietime.payticket.bean;
 
 /**
- * Created by Administrator on 2015/11/16.
+ *  
  */
 public class PayticketShangyingBean {
     private String id;

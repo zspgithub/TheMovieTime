@@ -31,7 +31,7 @@ import java.util.Map;
 
 
 /**获取shop第一界面得到的联网请求数据，并解析返还给调用者
- * Created by bfc on 2015/11/13.
+ *  
  */
 public class ShopFirstDataParse {
 

@@ -10,7 +10,7 @@ import com.l000phone.themovietime.utils.HttpUtil;
 /**
  * 登录异步任务
  *
- * Created by Administrator on 15-11-19.
+ *  
  */
 public class LoginAsyncTask extends AsyncTask<String,Void,LoginBean> {
 

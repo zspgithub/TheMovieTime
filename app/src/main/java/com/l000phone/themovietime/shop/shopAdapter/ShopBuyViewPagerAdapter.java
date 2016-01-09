@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import java.util.List;
 
 /**
- * Created by bfc on 2015/11/14.
+ *  
  */
 public class ShopBuyViewPagerAdapter extends PagerAdapter {
 

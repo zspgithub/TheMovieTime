@@ -9,6 +9,7 @@ import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -494,10 +495,14 @@ public class FirstpageFragment extends Fragment implements View.OnClickListener,
     //四个商品块的回调类
     @Override
     public void getGoodsSub(List<GoodsSubBean> list) {
+        Log.d("zsp","-------------"+list);
+        try{
         imageUtils.loadImage(list.get(0).getImage(), first_goods_sub1);
         imageUtils.loadImage(list.get(1).getImage(), first_goods_sub2);
         imageUtils.loadImage(list.get(2).getImage(), first_goods_sub3);
-        imageUtils.loadImage(list.get(3).getImage(), first_goods_sub4);
+        imageUtils.loadImage(list.get(3).getImage(), first_goods_sub4);}catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 

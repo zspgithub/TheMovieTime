@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by bfc on 2015/11/17.
+ *  
  */
 public class GridCenterAdapter extends BaseAdapter {
 

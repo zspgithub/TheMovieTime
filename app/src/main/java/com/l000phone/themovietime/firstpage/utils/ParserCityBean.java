@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 城市解析类
  *
- * Created by Administrator on 15-11-17.
+ * 
  */
 public class ParserCityBean {
 

@@ -3,7 +3,7 @@ package com.l000phone.themovietime.firstpage.bean;
 /**
  *每日佳片详情类
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class MoviesGoodDetialBean {
 

@@ -16,7 +16,7 @@ import com.l000phone.themovietime.shop.shopbuybean.Goodssss;
 import java.util.List;
 
 /**
- * Created by bfc on 2015/11/18.
+ *  
  */
 public class ShopBuyBottomGridviewAdapter extends BaseAdapter {
 

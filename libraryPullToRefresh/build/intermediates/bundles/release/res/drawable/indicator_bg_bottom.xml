@@ -15,4 +15,4 @@
         android:topLeftRadius="@dimen/indicator_corner_radius"
         android:topRightRadius="@dimen/indicator_corner_radius" />
 
-</shape><!-- From: file:/F:/高磊/第二组/TheMovieTime/libraryPullToRefresh/src/main/res/drawable/indicator_bg_bottom.xml -->
+</shape><!-- From: file:/F:/TheMovieTime/libraryPullToRefresh/src/main/res/drawable/indicator_bg_bottom.xml -->

@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 搜索结果适配器
  *
- * Created by Administrator on 15-11-19.
+ * 
  */
 public class SearchResultAdapter extends BaseAdapter {
 

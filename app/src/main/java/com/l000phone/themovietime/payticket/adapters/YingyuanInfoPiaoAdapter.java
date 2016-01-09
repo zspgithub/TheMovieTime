@@ -13,7 +13,7 @@ import com.l000phone.themovietime.payticket.bean.YingyuanInfoPiaoBean;
 import java.util.List;
 
 /**
- * Created by Administrator on 2015/11/19.
+ * 
  */
 public class YingyuanInfoPiaoAdapter extends BaseAdapter {
     private List<YingyuanInfoPiaoBean> list;

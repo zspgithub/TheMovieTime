@@ -3,7 +3,7 @@ package com.l000phone.themovietime.firstpage.search.searchbean;
 /**
  * 搜索结果类
  *
- * Created by Administrator on 15-11-19.
+ * 、
  */
 public class SearchResultBean {
 

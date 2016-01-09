@@ -11,7 +11,7 @@ import com.l000phone.themovietime.utils.HttpUtil;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-15.
+ *
  */
 public class GoodsAsyncTask extends AsyncTask<String,Void,List<GoodsSubBean>> {
 

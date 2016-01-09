@@ -9,7 +9,7 @@ import com.lidroid.xutils.BitmapUtils;
 
 
 /**解析图片的网络请求类
- * Created by bfc on 2015/11/14.
+ * 
  */
 public class ShopfirstBitmapNetwork {
 

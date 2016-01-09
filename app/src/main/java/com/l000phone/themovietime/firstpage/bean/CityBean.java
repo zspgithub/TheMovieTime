@@ -3,7 +3,7 @@ package com.l000phone.themovietime.firstpage.bean;
 /**
  * 城市Bean类
  *
- * Created by Administrator on 15-11-17.
+ * 
  */
 public class CityBean {
 

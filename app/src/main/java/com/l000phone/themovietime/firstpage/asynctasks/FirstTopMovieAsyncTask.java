@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 异步任务类，得到json字符串，并解析
  *
- * Created by Administrator on 15-11-14.
+ * 
  */
 public class FirstTopMovieAsyncTask extends AsyncTask<String,Void,List<FirstMovieBean>> {
 

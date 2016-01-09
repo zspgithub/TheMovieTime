@@ -3,7 +3,7 @@ package com.l000phone.themovietime.discover.bean;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class NewsListView {
     private String id;

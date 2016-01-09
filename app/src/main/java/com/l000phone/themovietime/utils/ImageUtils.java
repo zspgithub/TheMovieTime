@@ -29,7 +29,7 @@ import java.util.concurrent.Executors;
  * <p/>
  * 下载后将图片存入存储卡
  * <p/>
- * Created by Administrator on 15-11-13.
+ *  
  */
 public class ImageUtils {
 

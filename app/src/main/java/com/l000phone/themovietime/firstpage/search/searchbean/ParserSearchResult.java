@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 搜索结果解析类
  *
- * Created by Administrator on 15-11-19.
+ * 
  */
 public class ParserSearchResult {
 

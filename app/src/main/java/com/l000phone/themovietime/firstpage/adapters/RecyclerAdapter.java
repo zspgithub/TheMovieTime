@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 自定义RecyclerAdapter，给Recycler填充内容
  *
- * Created by Administrator on 15-11-13.
+ * 
  */
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder>{
 

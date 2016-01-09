@@ -14,7 +14,7 @@ import com.l000phone.themovietime.payticket.bean.PayticketYingyuanBean;
 import java.util.List;
 
 /**
- * Created by Administrator on 2015/11/17.
+ * 
  */
 public class PayticketYingyuanTehuiAdapter extends BaseAdapter {
     private List<PayticketYingyuanBean> list;

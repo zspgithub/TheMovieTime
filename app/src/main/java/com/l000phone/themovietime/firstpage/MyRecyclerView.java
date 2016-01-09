@@ -8,7 +8,7 @@ import android.view.View;
 /**
  * 自定义RecyclerView
  *
- * Created by Administrator on 15-11-13.
+ * 
  */
 public class MyRecyclerView extends RecyclerView{
 

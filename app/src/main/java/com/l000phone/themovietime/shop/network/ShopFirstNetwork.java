@@ -10,7 +10,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**shop第一界面联网请求的类
- * Created by bfc on 2015/11/13.
+ * 
  */
 public class ShopFirstNetwork {
 

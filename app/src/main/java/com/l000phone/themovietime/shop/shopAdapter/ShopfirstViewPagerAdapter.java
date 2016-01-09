@@ -13,7 +13,7 @@ import com.l000phone.themovietime.shop.shopbean.Scroll;
 import java.util.List;
 
 /**
- * Created by bfc on 2015/11/14.
+ * 
  */
 public class ShopfirstViewPagerAdapter extends PagerAdapter {
 

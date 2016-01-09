@@ -19,7 +19,7 @@ import com.l000phone.themovietime.shop.shopbuybean.LotsgoodsList;
 import java.util.List;
 
 /**
- * Created by bfc on 2015/11/19.
+ * 
  */
 public class ShopLotsGridviewAdapter extends BaseAdapter {
 

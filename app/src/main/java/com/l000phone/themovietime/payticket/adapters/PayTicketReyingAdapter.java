@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.logging.SimpleFormatter;
 
 /**
- * Created by Administrator on 2015/11/15.
+ * 
  */
 public class PayTicketReyingAdapter extends BaseAdapter{
     private List<PayticketReyingBean> list;

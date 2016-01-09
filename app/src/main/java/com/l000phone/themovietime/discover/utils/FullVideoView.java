@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.widget.VideoView;
 
 /**
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class FullVideoView extends VideoView {
     //在计算尺寸的方法中，给视频指定宽高

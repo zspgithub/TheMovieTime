@@ -6,7 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class TopListSubAreaJson {
     public static TopListSubArea getJson(String jsonString){

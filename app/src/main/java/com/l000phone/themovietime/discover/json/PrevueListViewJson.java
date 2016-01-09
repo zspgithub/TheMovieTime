@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class PrevueListViewJson {
     public static List<PrevueListView> getJson(String jsonString) {

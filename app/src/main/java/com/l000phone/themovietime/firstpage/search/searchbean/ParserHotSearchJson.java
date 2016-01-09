@@ -7,7 +7,7 @@ import org.json.JSONObject;
 /**
  * 热门搜索解析类
  *
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class ParserHotSearchJson {
 

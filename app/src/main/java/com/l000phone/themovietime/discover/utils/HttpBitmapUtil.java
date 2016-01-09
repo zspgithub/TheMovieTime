@@ -12,7 +12,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * Created by Administrator on 15-11-14.
+ * 
  */
 public class HttpBitmapUtil {
 

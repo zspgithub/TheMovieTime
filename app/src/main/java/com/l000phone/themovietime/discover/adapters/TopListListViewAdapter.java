@@ -13,7 +13,7 @@ import com.l000phone.themovietime.discover.bean.TopListListView;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-19.
+ * 
  */
 public class TopListListViewAdapter extends BaseAdapter {
     private Context context;

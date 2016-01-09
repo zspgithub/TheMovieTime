@@ -6,7 +6,7 @@ import org.json.JSONObject;
 /**
  * 登录解析类
  *
- * Created by Administrator on 15-11-19.
+ *  
  */
 public class ParserLogin {
 

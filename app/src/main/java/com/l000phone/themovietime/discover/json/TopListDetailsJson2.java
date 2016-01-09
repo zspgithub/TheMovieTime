@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-19.
+ * 
  */
 public class TopListDetailsJson2 {
     public static List<TopListDetailsBean2>getJson(String jsonString){

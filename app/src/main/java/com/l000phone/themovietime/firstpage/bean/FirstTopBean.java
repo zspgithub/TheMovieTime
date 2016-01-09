@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 这是首页上部的bean类
  *
- * Created by Administrator on 15-11-14.
+ * 
  */
 public class FirstTopBean {
 

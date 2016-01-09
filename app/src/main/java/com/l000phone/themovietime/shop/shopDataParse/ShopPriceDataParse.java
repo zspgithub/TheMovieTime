@@ -15,7 +15,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by bfc on 2015/11/17.
+ *  
  */
 public class ShopPriceDataParse {
 

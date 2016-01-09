@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 城市异步任务类
  *
- * Created by Administrator on 15-11-17.
+ * 
  */
 public class CityAsyncTask extends AsyncTask<String,Void,List<CityBean>> {
 

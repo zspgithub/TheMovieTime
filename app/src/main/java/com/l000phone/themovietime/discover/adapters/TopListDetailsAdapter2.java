@@ -15,7 +15,7 @@ import com.lidroid.xutils.BitmapUtils;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-19.
+ * 
  */
 public class TopListDetailsAdapter2 extends BaseAdapter{
     private Context context;

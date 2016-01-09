@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class NewsListViewJson {
 

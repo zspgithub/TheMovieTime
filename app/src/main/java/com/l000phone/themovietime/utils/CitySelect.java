@@ -11,7 +11,7 @@ import java.util.List;
  * 城市选择类
  * 该类接收来自定位或者用户点击的城市名，返回URL连接
  *
- * Created by Administrator on 15-11-17.
+ *  
  */
 public class CitySelect {
 

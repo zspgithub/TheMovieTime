@@ -15,7 +15,7 @@ import com.l000phone.themovietime.utils.ImageUtils;
 import java.util.List;
 
 /**
- * Created by Administrator on 2015/11/18.
+ * 
  */
 public class YingyuanRecyclerAdapter extends RecyclerView.Adapter<YingyuanRecyclerAdapter.ViewHolder> {
     private List<YingyuanInfoBean> list;

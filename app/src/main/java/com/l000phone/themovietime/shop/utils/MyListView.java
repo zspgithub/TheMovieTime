@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.widget.ListView;
 
 /**
- * Created by bfc on 2015/11/17.
+ *  
  */
 public class MyListView extends ListView {
 

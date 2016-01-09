@@ -3,7 +3,7 @@ package com.l000phone.themovietime.firstpage.bean;
 /**
  * 首页中间商品详情Bean类
  *
- * Created by Administrator on 15-11-15.
+ * 
  */
 public class GoodsGotoPageBean {
 

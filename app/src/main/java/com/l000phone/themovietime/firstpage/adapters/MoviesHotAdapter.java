@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class MoviesHotAdapter extends BaseAdapter {
 

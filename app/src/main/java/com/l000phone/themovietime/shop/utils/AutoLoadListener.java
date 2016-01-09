@@ -1,7 +1,7 @@
 package com.l000phone.themovietime.shop.utils;
 
 /**
- * Created by bfc on 2015/11/19.
+ *  
  */
 
 import android.view.View;

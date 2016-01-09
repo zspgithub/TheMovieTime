@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by bfc on 2015/11/16.
+ *  
  */
 public class ShopFirstListviewAdapter extends BaseAdapter {
     private List<Category> list;

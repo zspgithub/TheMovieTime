@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 搜索建议适配器类
  *
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class SearchSuggestAdapter extends BaseAdapter {
 

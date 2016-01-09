@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * 首页最上边可滑动图片
  *
- * Created by Administrator on 15-11-14.
+ * 
  */
 public class FirstTopImgAsyncTask extends AsyncTask<String,Void,Bitmap> {
 

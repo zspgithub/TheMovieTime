@@ -3,7 +3,7 @@ package com.l000phone.themovietime.utils;
 /**
  * 联网请求回调接口
  *
- * Created by Administrator on 15-11-13.
+ *  
  */
 public interface HttpCallback {
 

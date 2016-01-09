@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 首页下边
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class ParserMovieBean {
 

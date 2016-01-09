@@ -9,7 +9,7 @@ import com.l000phone.themovietime.utils.HttpUtil;
 /**
  * 最下边每日佳片
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class MoviesGoodAsyncTask extends AsyncTask<String, Void, MoviesGoodBean> {
 

@@ -1,7 +1,7 @@
 package com.l000phone.themovietime.shop.shopbean;
 
 /**
- * Created by bfc on 2015/11/17.
+ *  
  */
 public class GoodsList {
 

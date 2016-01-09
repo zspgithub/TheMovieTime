@@ -16,7 +16,7 @@ import org.w3c.dom.Text;
 import java.util.List;
 
 /**
- * Created by Administrator on 2015/11/17.
+ * 
  */
 public class PayticketYingyuanAdapter extends BaseAdapter {
     private List<PayticketYingyuanBean> list;

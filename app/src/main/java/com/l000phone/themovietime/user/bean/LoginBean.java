@@ -3,7 +3,7 @@ package com.l000phone.themovietime.user.bean;
 /**
  * 登录Bean类
  *
- * Created by Administrator on 15-11-19.
+ *  
  */
 public class LoginBean {
 

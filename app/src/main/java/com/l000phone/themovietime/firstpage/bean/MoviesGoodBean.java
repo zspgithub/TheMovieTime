@@ -3,7 +3,7 @@ package com.l000phone.themovietime.firstpage.bean;
 /**
  * 最下边每日佳片类
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class MoviesGoodBean {
 

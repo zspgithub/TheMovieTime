@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by bfc on 2015/11/18.
+ *  
  */
 public class ShopBuyListviewAdapter extends BaseAdapter {
 

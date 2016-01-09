@@ -7,7 +7,7 @@ import android.util.Log;
  *
  * 项目完成后把flag置为false即可
  *
- * Created by Administrator on 15-11-13.
+ *  
  */
 public class LogUtil {
 

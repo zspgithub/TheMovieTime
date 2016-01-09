@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Administrator on 2015/11/16.
+ * 
  */
 public class PayticketShangyingRecycleAdapter extends RecyclerView.Adapter<PayticketShangyingRecycleAdapter.ViewHolder>{
     private List<PayticketShangyingBean> attention = new ArrayList<>();

@@ -10,7 +10,7 @@ import com.l000phone.themovietime.utils.HttpUtil;
 import java.util.List;
 
 /**
- * Created by Administrator on 15-11-18.
+ * 
  */
 public class SearchSuggestAsyncTask extends AsyncTask<String,Void,List<SearchSuggestBean>> {
 

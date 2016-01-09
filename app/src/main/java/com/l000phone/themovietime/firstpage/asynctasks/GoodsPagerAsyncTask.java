@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 中间自动滑动广告条的异步任务类
  *
- * Created by Administrator on 15-11-16.
+ * 
  */
 public class GoodsPagerAsyncTask extends AsyncTask<String,Void,List<GoodsPagerBean>> {
 

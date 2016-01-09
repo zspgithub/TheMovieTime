@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 中间商品解析类
  *
- * Created by Administrator on 15-11-15.
+ * 
  */
 public class ParserGoodsBean {
     /**

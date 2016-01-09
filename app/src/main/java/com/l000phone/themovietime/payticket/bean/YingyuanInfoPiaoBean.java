@@ -1,7 +1,7 @@
 package com.l000phone.themovietime.payticket.bean;
 
 /**
- * Created by Administrator on 2015/11/19.
+ * 
  */
 public class YingyuanInfoPiaoBean {
     private String versionDesc;
