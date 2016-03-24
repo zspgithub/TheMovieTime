@@ -45,6 +45,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+		setTitle("sssssss");//zsp modefine
         initView();
 
         ConnectivityManager manager = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
